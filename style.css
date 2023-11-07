@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#canvas1{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(26, 113, 206);
+   max-width: 100%;
+    max-height: 100%;
+    font-family: 'Bangers', cursive;
+}
+#layer1,#layer2,#layer3,#layer4,#player,#angler1,#angler2,#lucky,#gears,#projectile,#hiveWhale,#drone,#smokeExplosion,#fireExplosion{
+    display: none;
+}
